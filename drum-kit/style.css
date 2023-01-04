@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://img.freepik.com/free-vector/stage-with-rock-music-instruments-equipment_33099-2213.jpg?w=1060&t=st=1672849686~exp=1672850286~hmac=dd8571c3b243e438fe151a9076d0ebad0a13bc2e98938e9878c911e4124c7f15');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.keys{
+    display: flex;
+    min-height: 100vh;
+    max-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.key{
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 0.07s;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd{
+    display: block;
+    font-size: 4rem;
+}
+
+.sound{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    color: #ffc600
+}
